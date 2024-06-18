@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:wght@100;300;400&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: rgba(55, 185, 144, 0.936);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: 40px;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 400px;
+  text-align: center;
+  border-radius: 6px;
+}
+.compteur {
+  border: solid 1px grey;
+  font-family: "Dancing Script", cursive;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  font-size: 30px;
+}
+.button-group {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+button {
+  color: white;
+  background-color: rgba(55, 185, 144, 0.936);
+  border: none;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 4px;
+}
